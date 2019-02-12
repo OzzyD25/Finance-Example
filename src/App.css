@@ -1,0 +1,292 @@
+body {
+  font-size: 16px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #00A9DF;
+  font-size: 50px ;
+  font-weight: 900!important;
+}
+
+h3 {
+  line-height: 30px;
+  padding-bottom: 20px;
+
+}
+h4 {
+  line-height: 40px;
+}
+
+a, h3, h4, h1 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.color-blue {
+  color: #00A9DF;
+}
+
+/* Header / NavBar Styles */
+
+li {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 15px;
+  color: white;
+}
+
+ul {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 11.5px 55px 0px 0px;
+}
+
+.head-main {
+  font-size: 120px !important;
+  font-weight: 900 !important;
+  color: #585858 !important;
+  padding: 200px 20px 250px 20px;
+}
+
+.head-main h3  {
+  color: grey;
+}
+
+/*  Main Directory Button */
+
+
+/* About Styles */
+
+#about {
+  background-color: rgba(209, 209, 209, 0.15);
+  padding: 75px 0px;
+}
+
+.about-div {
+	width: 100%;
+  min-height: 100px;
+  background-color: rgba(209, 209, 209, 0.40);
+  padding: 40px 20px 30px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px 0px #D2CECE;
+}
+
+.about-div:hover {
+  box-shadow: 2px 2px 20px 0px #B5B4B4;
+  transition: all 0.3s linear;
+}
+
+.about-div h3 {
+  margin-top: 10px;
+}
+
+.space-pad {
+  padding-bottom: 50px;
+}
+
+.margin-sort {
+  margin: -10px 0px;
+}
+
+/* Services */
+
+/* Image Split Start within Services */
+
+.img-split-1 {
+  height: 360px;
+  background-image: url('./splitImg/7.jpg');
+  align-items: center;
+}
+
+.split-text-1 {
+  z-index: 1;
+  font-size: 42px;
+}
+
+/* Image Split End within Services */
+
+#services {
+  padding: 75px 0px;
+}
+
+.service-btn {
+  margin: 0px 8px;
+}
+
+.service-div {
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(23, 162, 184, 0.20);
+  padding: 30px 20px 27.5px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px 0px #D2CECE;
+}
+
+.service-div:hover {
+  box-shadow: 2px 2px 20px 0px #B5B4B4;
+  transition: all 0.3s linear;
+}
+
+/* Free Space */
+
+#free-text {
+  background-color: rgba(209, 209, 209, 0.15);
+  padding: 100px 0px;
+}
+
+.free-div {
+  width: 100%;
+  min-height: 250px;
+  background-color: rgba(209, 209, 209, 0.40);
+  padding: 50px 20px 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 0px #D2CECE;
+}
+
+.free-div:hover {
+  box-shadow: 2px 2px 20px 0px #B5B4B4;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.free-div h3 {
+  margin-top: 55px;
+}
+
+.free-div h3:hover {
+  transform: scale(1.7);
+  transition: all 0.5s linear;
+}
+
+.space-pad {
+  padding-bottom: 50px;
+}
+
+/* Team */
+
+.team-text h5 {
+  margin-bottom: 5px;
+  font-family: 'Cookie', cursive;
+  font-size: 26px;
+}
+
+.team-card img {
+  margin-bottom: 20px;
+  width: 280px;
+  box-shadow: 2px 2px 10px 0px #D2CECE;
+}
+
+#team {
+  padding: 100px 0px;
+}
+
+/* Contact */
+
+/* Image Split Start within contact */
+.img-split-2 {
+  height: 330px;
+  background-image: url('./splitImg/11.jpg');
+  align-items: center;
+}
+
+.split-text-2 {
+  z-index: 1;
+  font-size: 32px;
+  color: black;
+}
+
+.split-text-2 form {
+  text-align: center;
+}
+
+.form-input {
+  font-size: 16px;
+}
+
+input {
+  padding: 10px 45px 10px 12.5px;
+  background: transparent;
+  border: 1.5px solid black;
+  font-style: italic;
+  margin-left: 5px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.split-text-2 form button {
+  background: black;
+  font-size: 16px;
+  margin-left: 5px;
+  border: 1.5px solid black;
+  font-style: italic;
+  padding: 10px 25px;
+  color: white;
+}
+
+.split-text-2 form button:hover {
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  color: black;
+}
+
+/* Image Split End within contact */
+
+#contact {
+  background-color: rgba(209, 209, 209, 0.15);
+  padding: 92.5px 0px;
+}
+
+.contact-cls {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.contact-cls button {
+  margin-top: -25px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  margin-left: 0px;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #00A9DF;
+  color: #fff;
+  padding: 20px 50px 20px 50px;
+  text-align: left;
+  height: 80px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 767px )  {
+  .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 10px 60px 0px 0px;
+  }
+  .service-div {
+    margin-bottom: 15px;
+  }
+  /* Image Split  */
+}
